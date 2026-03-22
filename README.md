@@ -29,6 +29,8 @@ Unlike standard synchronous wrappers, EchoSwarm utilizes a **decoupled microserv
 ```bash
 pip install fastapi uvicorn httpx pydantic streamlit pandas
 
+---
+
 ### 2. Launch the Engine (Backend)
 ```bash
 uvicorn main:app --reload
